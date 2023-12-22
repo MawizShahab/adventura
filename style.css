@@ -1,0 +1,334 @@
+body,
+html {
+  font-family: "Inter", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.rm-pd {
+  padding: 0;
+}
+
+.main-container {
+  background: url("./assets/images/body-bg.png") no-repeat center center fixed;
+  background-size: contain;
+  height: 100vh;
+  padding: 25px 80px;
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header-section img {
+  max-width: 100%; /* Ensure the logo doesn't exceed its container */
+  height: auto;
+}
+
+h2.winner-title {
+  color: #232c2e;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 44.214px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 37.4px;
+}
+
+.winner-card-container {
+  border-radius: 34.103px;
+  background: #fff;
+  box-shadow: 0px 9.094px 44.333px 0px rgba(0, 0, 0, 0.1);
+}
+
+.winner-position {
+  position: relative;
+}
+
+.winner-position img {
+  width: 100%;
+  border-radius: 34.103px 34.103px 0 0;
+}
+
+.winner-position span.position {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4.421px 4.421px rgba(0, 0, 0, 0.25);
+  font-size: 124.009px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.847px;
+  position: absolute;
+  top: 48px;
+  right: 45px;
+}
+
+.winner-thumbnail-container {
+  justify-content: flex-end;
+  align-items: center;
+  padding: 40px 42px 40px 0;
+  position: relative;
+}
+
+.thumbnail {
+  position: absolute;
+  top: -120px;
+  left: 42px;
+}
+
+.winner-thumbnail-container .label {
+  border-radius: 27.282px;
+  background: #232c2e;
+  padding: 6.821px 22.735px;
+}
+
+.winner-thumbnail-container .label span.label-text {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 31.829px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.winner-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding: 0 38px;
+}
+
+.winner-name .name {
+  color: var(--Black-Black-50, #232c2e);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 42.12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.k-container {
+  padding: 0 38px;
+}
+
+span.k-label {
+  color: #1d99df;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 76.604px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.statistics-wrapper {
+  padding: 90px 38px 75px 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.stats-score .score {
+  color: var(--Black-Black-50, #232c2e);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 39.307px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.stats-name .name {
+  color: var(--Black-Black-40, #5c6363);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 34.393px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.seperator {
+  display: flex;
+  justify-content: center;
+}
+
+.champions-container {
+  gap: 50px;
+}
+
+.weekly-winner-container h2.winner-title,
+.monthly-winner-container h2.winner-title,
+.yearly-winner-container h2.winner-title {
+  font-size: 29.219px;
+  margin-bottom: 26.5px;
+}
+
+.weekly-winner-container .winner-card-container,
+.monthly-winner-container .winner-card-container,
+.yearly-winner-container .winner-card-container {
+  border-radius: 15.203px;
+}
+
+.weekly-winner-container .winner-position img,
+.monthly-winner-container .winner-position img,
+.yearly-winner-container .winner-position img {
+  border-radius: 15.203px 15.203px 0 0;
+}
+
+.weekly-winner-container .winner-thumbnail-container,
+.monthly-winner-container .winner-thumbnail-container {
+  padding: 18px;
+}
+
+.weekly-winner-container .thumbnail,
+.monthly-winner-container .thumbnail {
+  top: -50px;
+  left: 18px;
+}
+
+.weekly-winner-container .thumbnail img,
+.monthly-winner-container .thumbnail img {
+  width: 104px;
+  height: 104px;
+}
+
+.weekly-winner-container .winner-position span.position,
+.monthly-winner-container .winner-position span.position,
+.yearly-winner-container .winner-position span.position {
+  font-size: 55.284px;
+  top: 21px;
+  right: 10px;
+}
+
+.weekly-winner-container .winner-thumbnail-container .label,
+.monthly-winner-container .winner-thumbnail-container .label {
+  padding: 3.041px 10.135px;
+}
+
+.weekly-winner-container .winner-thumbnail-container .label span.label-text,
+.monthly-winner-container .winner-thumbnail-container .label span.label-text {
+  font-size: 14.185px;
+}
+.weekly-winner-container .winner-name .name,
+.monthly-winner-container .winner-name .name {
+  font-size: 18.771px;
+}
+
+.weekly-winner-container .winner-name-container,
+.monthly-winner-container .winner-name-container {
+  gap: 5px;
+  padding: 0 17px;
+}
+
+.weekly-winner-container .trophy img,
+.monthly-winner-container .trophy img {
+  width: 23px;
+  height: 23px;
+}
+
+.weekly-winner-container span.k-label {
+  color: #dcdf1d;
+  font-size: 38.447px;
+}
+
+.monthly-winner-container span.k-label {
+  color: #2c1ddf;
+  font-size: 38.447px;
+}
+
+.weekly-winner-container .stats-score .score,
+.monthly-winner-container .stats-score .score {
+  font-size: 17.518px;
+}
+
+.weekly-winner-container .stats-name .name,
+.monthly-winner-container .stats-name .name {
+  font-size: 15.328px;
+}
+
+.weekly-winner-container .statistics-wrapper,
+.monthly-winner-container .statistics-wrapper {
+  gap: 14px;
+  padding: 36px 17px;
+}
+
+.weekly-winner-container .statistics-container img,
+.monthly-winner-container .statistics-container img {
+  height: 39.605px;
+}
+
+.weekly-winner-container .k-container,
+.monthly-winner-container .k-container {
+  padding: 0 17px;
+}
+
+.yearly-winner-container-wrapper {
+  margin-top: 50px;
+}
+
+.yearly-winner-container .thumbnail {
+  top: -70px;
+  left: 18px;
+}
+
+.yearly-winner-container .winner-thumbnail-container {
+  padding: 17px 28px;
+}
+
+.yearly-winner-container .winner-thumbnail-container .label {
+  padding: 4.553px 15.175px;
+}
+
+.yearly-winner-container .winner-thumbnail-container .label span.label-text {
+  font-size: 21.245px;
+}
+
+.yearly-winner-container .winner-name .name {
+  font-size: 34.783px;
+}
+
+.yearly-winner-container .trophy img {
+  width: 41px;
+  height: 41px;
+}
+
+.yearly-winner-container .stats-score .score {
+  font-size: 28.729px;
+}
+
+.yearly-winner-container .stats-name .name {
+  font-size: 25.138px;
+}
+
+.yearly-winner-container .winner-name-container {
+  padding: 0 17px;
+}
+
+.yearly-winner-container .statistics-wrapper {
+  padding: 20px 17px;
+}
+
+.yearly-winner-container .k-container {
+  padding: 0;
+  align-self: flex-end;
+}
+
+.yearly-winner-container span.k-label {
+  font-size: 41.837px;
+  color: #dcdf1d;
+}
