@@ -332,3 +332,88 @@ span.k-label {
   font-size: 41.837px;
   color: #dcdf1d;
 }
+
+/* Screen Two */
+
+.screen-two .winner-name-container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.screen-two .statistics-wrapper {
+  padding: 50px 38px 75px 38px;
+}
+
+.screen-two .time-container-wrapper,
+.screen-two .laps-container-main {
+  border-radius: 34.103px;
+  background: #fff;
+  box-shadow: 0px 9.094px 44.333px 0px rgba(0, 0, 0, 0.1);
+  padding: 22px 30px;
+  align-items: center;
+}
+
+.time-container-main {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+}
+
+span.time-label,
+span.laps-label {
+  color: var(--Black-Black-40, #5c6363);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 24.997px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+span.time,
+span.laps {
+  color: var(--Black-Black-50, #232c2e);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 39.307px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.row.laps-container-wrapper {
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.laps-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.laps-container-wrapper .laps-container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+  justify-content: space-between;
+}
+
+.laps-container-main .k-container {
+  justify-content: space-between;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.laps-container-main .k-container span.k-label {
+  font-size: 50.661px;
+}
+
+.last {
+  margin-top: 68px !important;
+}
